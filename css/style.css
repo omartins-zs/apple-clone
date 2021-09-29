@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "SF PRO";
+  src: url("/fonts/SF-Pro.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF PRO";
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    padding: 10px 2%;
+    background-color: #333;
+    text-align: center;
+}
+
+nav.menu ul {
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+    color: white;
+    margin: 0 30px;
+    font-size: 14px;
+}
+
+.menu a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+}
+
+section.demo {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+}
+
+section.demo h1 {
+    font-size:40px;
+}
+
+section.demo h3 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.links-compra a {
+    color: #06c;
+    font-size: 19px;
+    margin: 0 15px;
+}
+
+section.demo img {
+    display: inline-block;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 90px;
+}
+.menu a {
+    font-size: 18px;
+}
+
+.menu a.search-icon {
+    margin-right: 20px;
+}
+
+
+
+
+
+
