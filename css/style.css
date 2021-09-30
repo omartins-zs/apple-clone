@@ -11,69 +11,116 @@
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 header {
-    padding: 10px 2%;
-    background-color: #333;
-    text-align: center;
+  padding: 10px 2%;
+  background-color: #333;
+  text-align: center;
 }
 
-nav.menu ul {
-    display: inline-block;
+nav.menu-desktop ul {
+  display: inline-block;
 }
 
-.menu li {
-    display: inline-block;
-    color: white;
-    margin: 0 30px;
-    font-size: 14px;
+nav.menu-desktop li {
+  display: inline-block;
+  color: white;
+  margin: 0 30px;
+  font-size: 14px;
 }
 
-.menu a {
-    margin: 0 5px;
-    text-decoration: none;
-    color: white;
+nav.menu-desktop a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
 }
 
+nav.menu-desktop > a {
+  font-size: 18px;
+}
+
+.menu-desktop a.search-icon {
+  margin-right: 20px;
+}
 section.demo {
-    text-align: center;
-    padding: 50px 0;
-    color: white;
+  text-align: center;
+  padding: 30px 0;
+  color: white;
 }
 
 section.demo h1 {
-    font-size:40px;
+  font-size: 40px;
 }
 
 section.demo h3 {
-    margin: 20px 0;
-    font-size: 25px;
+  margin: 20px 0;
+  font-size: 25px;
 }
 
 .links-compra a {
-    color: #06c;
-    font-size: 19px;
-    margin: 0 15px;
+  color: #06c;
+  font-size: 19px;
+  margin: 0 15px;
+  text-decoration: none;
 }
 
 section.demo img {
-    display: inline-block;
+  display: inline-block;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 10px;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+.btn-close {
+  display: none;
+  text-decoration: none;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-menu {
+    cursor: pointer;
+    color: white;
+  }
+
+  .menu-mobile a {
+    color: white;
+  }
+  .itens-mobile {
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: black;
     width: 100%;
-    max-width: 900px;
-    margin-top: 90px;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .itens-mobile li {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .itens-mobile a {
+    text-decoration: none;
+  }
 }
-.menu a {
-    font-size: 18px;
-}
-
-.menu a.search-icon {
-    margin-right: 20px;
-}
-
-
-
-
-
 
