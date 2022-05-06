@@ -1,4 +1,14 @@
-# Apple Clone
+<h1 align="center"> 
+ Apple Clone
+</h1>
+
+
+<h2 align="center">
+    <img alt="AppleClone" title="" src="/img/appeClone.png" />
+</h2>
+
+
+
 
 
 
